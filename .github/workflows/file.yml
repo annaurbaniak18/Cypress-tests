@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-22.04
     name: 1.1.0
     steps:
-      - uses: actions/checkout@v4
-      - uses: cypress-io/github-action@v6
+      - uses: actions/checkout@latest
+      - uses: cypress-io/github-action@latest
