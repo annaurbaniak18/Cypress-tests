@@ -8,7 +8,7 @@ describe("Facebook button test", () => {
 
     cy.origin("https://www.facebook.com", () => {
       cy.wait(5000);
-      cy.url().should("include", "//www.facebook.com/prestashop");
+      cy.url().should("include", "https://www.facebook.com/prestashop");
     });
   });
 });
